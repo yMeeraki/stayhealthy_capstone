@@ -26,19 +26,19 @@
 - **Login Form**: Simple login form with email and password fields, password visibility toggle, and error validation.
 
 ### 3. Appointment Booking
-- **Search Doctor** layout enables users to search by specialty.
-- **Doctor Card** displays the doctor's name, specialty, experience, and rating with an option to book an appointment.
+- **Search Doctor** layout enables users to search by speciality.
+- **Doctor Card** displays the doctor's name, speciality, experience, and rating with an option to book an appointment.
 
 ### 4. Reviews Section
 - Allows patients to write reviews about their consultation experiences with doctors.
-- Displays reviews along with doctor name, specialty, and feedback.
+- Displays reviews along with doctor name, speciality, and feedback.
 - Includes an option for patients to provide star ratings and written feedback.
 
 ---
 
 ## Technologies Used
 - **Frontend**: React.js, HTML, CSS, Figma (for design)
-- **Styling**: Custom CSS with colors for branding
+- **Styling**: Custom CSS with colours for branding
   - **Cyan Blue (#00BBFF)**: Main UI elements, buttons, and highlights.
   - **Charcoal Black (#2C3E50)**: Text, navigation, and backgrounds.
   - **Soft Gray (#F0F0F0)**: Backgrounds, cards, and secondary elements.
@@ -49,8 +49,8 @@
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-username/medical-appointment-booking.git
-    cd medical-appointment-booking
+    git clone https://github.com/your-username/stayhealthy_capstone.git
+    cd stayhealthy_capstone
     ```
 
 2. **Install Dependencies**:
@@ -66,8 +66,8 @@
 
 ## Usage
 
-- **Sign-Up/Login**: New users can sign up, while returning users can log in.
-- **Book an Appointment**: Use the "Search Doctor" feature to find a doctor by specialty, view the doctor card, and book an appointment.
+- **Sign-Up/Login**: New users can sign up while returning users can log in.
+- **Book an Appointment**: Use the "Search Doctor" feature to find a doctor by speciality, view the doctor card, and book an appointment.
 - **Review a Consultation**: After a consultation, patients can provide feedback and rate their experience.
 
 ## General Notes
