@@ -18,7 +18,7 @@
                 <form>
                     <div class="form-group"> <!-- Form group for user's role -->
                         <label for="role">Role</label>
-                        <select name="role" id="role">
+                        <select name="role" id="role" required>
                             <option value="" disabled selected>Select Role</option>
                             <option value="Doctor">Doctor</option>
                             <option value="Patient">Patient</option>
@@ -34,6 +34,7 @@
                     <div class="form-group"> <!-- Form group for user's phone number -->
                         <label for="phone">Phone</label> 
                         <input type="tel" name="phone" id="phone" required class="form-control" placeholder="Enter your phone number" aria-describedby="helpId" />
+                        
                     </div>
 
                     <div class="form-group"> <!-- Form group for user's email -->
@@ -43,7 +44,8 @@
 
                     <div class="form-group"> <!-- Form group for user's password -->
                         <label for="password">Password</label>
-                        <input name="password" id="password" required class="form-control" placeholder="Enter your password" aria-describedby="helpId" />
+                        <input type="password" name="password" id="password" required class="form-control" placeholder="Enter your password" aria-describedby="helpId" />
+                        <input type="checkbox" onclick="myFunction()">Show Password
                     </div>
 
                     <div class="btn-group"> <!-- Button group for form submission and reset -->
