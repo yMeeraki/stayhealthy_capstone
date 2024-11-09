@@ -1,3 +1,141 @@
+*{
+    
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: #2C3E50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120svh;
+}
+
+/*  Styling of main container */
+.main-container{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap:1rem;
+    background-color: #F0F0F0;
+    width: 25rem;
+    height: 42.5rem;
+    border: 1px solid #2C3E50;
+    border-radius: 1rem;
+}
+
+/*  Styling of heading section  */
+.heading-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/*  Styling of Sub-Heading  */
+.sub-heading{
+    font-weight: lighter;
+    font-size: 1.25rem;
+    color: #2C3E50;
+}
+
+/*  Styling of Sub-Heading - log-in */
+.sub-heading a{
+    color:  #00BBFF;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.sub-heading a:hover{
+    text-decoration: underline;
+}
+
+
+/*  Styling of form section */
+.sign-up-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:1.7rem;
+}
+
+/*  Styling of form-groups  */
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-group label{
+    font-weight: 700;
+}
+
+.form-group input, .form-group select{
+   border-radius: .5rem; 
+   border: 1px solid #2C3E50;
+   padding: .5rem 1rem;
+}
+
+.form-group input:hover, .form-group select:hover {
+    border: 1px solid #00BBFF;
+  }
+
+/*  Styling of Btn-group    */
+.btn-group{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    gap:0.3125rem; /* 5px   */
+}
+
+button{
+    border-radius: 0.625rem;   /*   10px    */
+    border: none;
+    padding: .2rem;
+}
+
+.submit-btn{
+    border: 1px solid #00BBFF;
+}
+
+.submit-btn:hover{
+    background-color: #00BBFF;
+    font-weight: 700;
+    cursor: pointer;
+    color: #2C3E50;
+}
+
+.reset-btn{
+    border: 1px solid #E24040;
+}
+
+.reset-btn:hover{
+    background-color: #E24040;
+    font-weight: 700;
+    cursor: pointer;
+    color: #F0F0F0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* 1. Use a more-intuitive box-sizing model */
 *, *::before, *::after {
     box-sizing: border-box;
