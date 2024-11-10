@@ -1,0 +1,190 @@
+*{
+    
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-color: #2C3E50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100svh;
+}
+
+/*  Styling of main container */
+.main-container{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap:2rem;
+    background-color: #F0F0F0;
+    width: 30rem;
+    height: 30rem;
+    border: 1px solid #2C3E50;
+    border-radius: 1rem;
+}
+
+/*  Styling of heading section  */
+.heading-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+/*  Styling of Sub-Heading  */
+.sub-heading{
+    font-weight: lighter;
+    font-size: 1.25rem;
+    color: #2C3E50;
+}
+
+/*  Styling of Sub-Heading - log-in */
+.sub-heading a{
+    color:  #00BBFF;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.sub-heading a:hover{
+    text-decoration: underline;
+}
+
+
+/*  Styling of form section */
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:1.7rem;
+}
+
+/*  Styling of form-groups  */
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-group label{
+    font-weight: 700;
+}
+
+.form-group input, .form-group select{
+   border-radius: .5rem; 
+   border: 1px solid #2C3E50;
+   padding: .5rem 1rem;
+}
+
+.form-group input:hover, .form-group select:hover {
+    border: 1px solid #00BBFF;
+  }
+
+/*  Styling of Btn-group    */
+.btn-group{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    gap:0.3125rem; /* 5px   */
+}
+
+button{
+    border-radius: 0.625rem;   /*   10px    */
+    border: none;
+    padding: .2rem;
+}
+
+.submit-btn{
+    border: 1px solid #00BBFF;
+}
+
+.submit-btn:hover{
+    background-color: #00BBFF;
+    font-weight: 700;
+    cursor: pointer;
+    color: #2C3E50;
+}
+
+.reset-btn{
+    border: 1px solid #E24040;
+}
+
+.reset-btn:hover{
+    background-color: #E24040;
+    font-weight: 700;
+    cursor: pointer;
+    color: #F0F0F0;
+}
+
+/*   Styling of Forgot Password */
+p{
+    font-weight: lighter;
+    text-align: center;
+    color: #2C3E50;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  /* 2. Remove default margin */
+  * {
+    margin: 0;
+  }
+  
+  body {
+    /* 3. Add accessible line-height */
+    line-height: 1.5;
+    /* 4. Improve text rendering */
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /* 5. Improve media defaults */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  /* 6. Inherit fonts for form controls */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  /* 7. Avoid text overflows */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  /* 8. Improve line wrapping */
+  p {
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+  
+  /*
+    9. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
