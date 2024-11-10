@@ -126,7 +126,11 @@ p{
     color: #2C3E50;
 }
 
-
+p:hover{
+    text-decoration: underline;
+    color: #00BBFF;
+    cursor: pointer;
+}
 
 
 
