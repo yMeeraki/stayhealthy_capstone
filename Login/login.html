@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="./login.css"> <!-- Linking external CSS file -->
+    </head>
+    <body>
+        <div class="main-container">
+            <section class = "heading-section">
+                <h1>Login</h1>
+                <div class="sub-heading">
+                    Already you a new member?<span><a href="../Sign_Up/sign_up.html"  class="sign-up">Sign-up Here</a></span>
+                </div>
+            </section>
+            <section>
+                <form  class="login-form">
+                    
+                    <div class="form-group"> <!-- Form group for user's email -->
+                        <label for="email">Email</label> 
+                        <input type="email" name="email" id="email" required class="form-control" placeholder="Enter your email" aria-describedby="helpId" />
+                    </div>
+
+                    <div class="form-group"> <!-- Form group for user's password -->
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required class="form-control" placeholder="Enter your password" aria-describedby="helpId" />
+                    </div>
+
+                    <div class="btn-group"> <!-- Button group for form submission and reset -->
+                        <button type="submit" class="submit-btn">Submit</button> <!-- Submit button -->
+                        <button type="reset" class="reset-btn">Reset</button> <!-- Reset button -->
+                    </div>
+                </form>    
+            </section>
+            <p>Forgot Password?</p>
+        </div>
+    </body>
+</html>
